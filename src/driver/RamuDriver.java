@@ -2,6 +2,9 @@ package driver;
 
 public class RamuDriver implements Driver {
 
+    /*
+    * Lazy initialization.
+    * */
     private static RamuDriver ramuDriver;
 
     private RamuDriver(){
